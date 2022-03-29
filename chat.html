@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <script src="https://kit.fontawesome.com/d2a6dc4f01.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="list">
+            <ul class="sidebar">
+                <li>
+                    <i class="fas fa-bars"></i>
+                </li>
+                <li>
+                    <i class="far fa-comments"></i>
+                    <p class="icons-text">All</p>
+                </li>
+                <li>
+                    <i class="far fa-folder"></i>
+                    <p class="icons-text">Shaxsiy</p>
+                </li>
+                <li>
+                    <i class="far fa-folder"></i>
+                    <p class="icons-text">Gruppalar</p>
+                </li>
+                <li>
+                    <i class="far fa-folder"></i>
+                    <p class="icons-text">Kanallar</p>
+                </li>
+                <li>
+                    <i class="fas fa-robot"></i>
+                    <p class="icons-text">Botlar</p>
+                </li>
+                <li>
+                    <i class="fas fa-sliders"></i>
+                    <p class="icons-text">Sozlamalar</p>
+                </li>
+            </ul>
+            <ul class="contacts">
+                <div>
+                    <input type="search" placeholder="Поиск">
+                </div>
+                <div class="main">
+                    <li>
+                        <img src="./images/dekan.jpg" alt="">
+                        <span>
+                            <p class="name-text">Samandar</p>
+                            <p class="comment-text">Salom bo`la</p>
+                        </span>
+                    </li>
+                </div>
+            </ul>
+            <div class="chat-bar">
+                <div class="navbar">
+                    <div>
+                        <a href="#">Samandar</a>
+                        <p>online</p>
+                    </div>
+                    <ul class="nav-menu">
+                        <li><i class="fas fa-search"></i></li>
+                        <li><i class="fas fa-phone"></i></li>
+                        <li><i class="fas fa-ellipsis-vertical"></i></li>
+                    </ul>
+                </div>
+                <ul class="list-message">
+                    <li class="left-message">
+                        <div>
+                            <p>kak</p>
+                            <p>21.03</p>
+                        </div>
+                    </li>
+                    <li class="right-message">
+                        <div>
+                            <p>kak</p>
+                            <p>21.03</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="footer">
+                    <input type="text" id="messageText" placeholder="Написать сообщение...">
+                    <button class="sendMessage">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/axios.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN Form</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/axios.min.js"></script>
+</head>
+<body>
+<div class="hero">
+    <div class="form-box">
+          
+        <div class="button-box">
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn" onclick="log()">Log In</button>
+            <button type="button" class="toggle-btn" onclick="reg()">Register</button>
+        </div>
+        <div class="social-icons">
+            <img src="./images/fb.png" alt="">
+            <img src="./images/tg.png" alt="">
+            <img src="./images/yt.png" alt="">
+        </div>
+        <form id="login" class="input-group">
+            <input type="text"class="input-filter" id="signID" placeholder="user ID" required>
+            <input type="password"class="input-filter" oninput="change()" id="signPass" placeholder="password" required>
+            <p id="changedPass"></p>
+            <input type="button" class="submit-btn" onclick="signIn()" value="Log In"/>
+        </form>
+        <!-- Registor  -->
+        <form id="register" class="input-group">
+            <input type="text"class="input-filter" id="firstname" placeholder="firstname">
+            <input type="text"class="input-filter" id="surname" placeholder="surname">
+            <input type="date" class="input-filter" id="data" placeholder="data">
+            <input type="text" class="input-filter" id="userId" placeholder="user ID">
+            <input type="email" class="input-filter" id="userEmail" placeholder="gmail or mail" >
+            <input type="password"class="input-filter" id="password" placeholder="password">
+            <input type="button" class="submit-btn" id="registered" onclick="save()" value="Register"/>
+        </form>
+    </div>
+</div>
+
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
