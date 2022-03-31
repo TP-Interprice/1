@@ -93,3 +93,8 @@ const rendererUsers = async () => {
 }
 
 window.onload = rendererUsers
+
+let logOut = document.getElementById('logOut')
+logOut.onclick = () => {
+    
+}

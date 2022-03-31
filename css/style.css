@@ -4,7 +4,7 @@
   font-family: sans-serif;
 }
 .hero{
-    height: 625px;
+    height: 100%;
     width: 100%;
     background-image:linear-gradient(rgba(80,72,72,0.4),rgba(80,72,72,0.4)) ,url(../images/backgound-messenger.jpg);
     background-position: center;
