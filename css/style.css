@@ -6,7 +6,7 @@
 .hero{
     height: 625px;
     width: 100%;
-    background-image:linear-gradient(rgba(80,72,72,0.4),rgba(80,72,72,0.4)) ,url(../images/img.jpg);
+    background-image:linear-gradient(rgba(80,72,72,0.4),rgba(80,72,72,0.4)) ,url(../images/backgound-messenger.jpg);
     background-position: center;
     background-size: cover;
     position: absolute;
