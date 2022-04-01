@@ -10,6 +10,7 @@ var logIn = document.querySelector('#login')
 var register = document.querySelector('#register')
 var btn = document.querySelector('#btn')
 var formBox = document.querySelector(".form-box")
+var toggle = document.querySelectorAll(".toggle-btn")
 
 var Name = document.getElementById('firstname')
 var surName = document.getElementById('surname')
@@ -31,6 +32,10 @@ function reg() {
     btn.style.left = '110px';
     formBox.style.height = "600px"
     formBox.style.transition = "0.5s"
+    toggle[1].style.color = 'white'
+    toggle[0].style.color = 'black'
+    toggle[1].style.transition = '0.5s'
+    toggle[0].style.transition = '0.5s'
 
 }
 function log() {
@@ -39,6 +44,10 @@ function log() {
     btn.style.left = '0px';
     formBox.style.height = "400px"
     formBox.style.transition = "0.5s"
+    toggle[1].style.color = 'black'
+    toggle[0].style.color = 'white'
+    toggle[1].style.transition = '0.5s'
+    toggle[0].style.transition = '0.5s'
 }
 
 

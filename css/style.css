@@ -12,8 +12,10 @@
     position: absolute;
 }
 .form-box{
-    width: 380px;
-    height:400px;
+    width: 27.8%; /*380px*/
+    height: 62.3%; /*400px*/
+    min-width: 380px;
+    max-width: 420px;
     max-height: 570px;
     position: relative;
     margin: 0 auto;
@@ -25,7 +27,8 @@
     box-shadow: 0 0 10px #999;
 }
 .button-box{
-    width: 212px;
+    width: 55.8%; /*212px*/
+    min-width: 212px;
     margin: 35px auto;
     position: relative;
     box-shadow: 0 0 20px 9px #ff61241f;
@@ -43,9 +46,9 @@
     top: 0;
     left: 0;   
     position: absolute;
-    width: 100px;
+    width: 47.2%;/*100px*/
     height: 100%;
-    background: linear-gradient(to right, #ff105f,#ffad06);
+    background: linear-gradient(to right, #5b5f97,#637da5);
     border-radius: 30px;
     transition: 0.5s;
 }
@@ -63,7 +66,9 @@
 .input-group{
     top: 180px;
     position: absolute;
-    width: 280px;
+    width: 73.7%;
+    min-width: 280px;
+
     transition: 0.5s;
     margin: 0 auto;
 }
@@ -84,11 +89,12 @@
     cursor: pointer;
     display: block;
     margin: auto;
-    background: linear-gradient(to right, #ff105f,#ffad06);
+    background: linear-gradient(to right, #5b5f97,#637da5);
     border: none;
     border-radius: 30px;
     outline: none;
     transform: translateY(30px);
+    color: white;
 }
 .check-box{
     margin: 30px 10px 30px 0;
